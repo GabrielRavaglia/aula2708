@@ -1,7 +1,6 @@
 fieldset{    
     width: 50%;
-    margin-left: 25%;
-    
+    margin-left: 25%;    
     margin-top: 50px;
     border-radius: 10px;
 }
@@ -11,7 +10,8 @@ form{
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
-   width: auto;
+    width: 100%;
+    margin-left: 10px;
 }
 
 #texto{
@@ -25,21 +25,26 @@ form{
     flex-direction: row;       
     gap: 10px;
     margin-top: 5px;
+    align-items: center;
+}
+
+#novi input{
+    width: 15px;
 }
 
 h1{
-    font-size: 30px;
-    
+    font-size: 30px;    
 }
 
 input{
     border-radius: 10px;
     border: 1px solid black;
-    height: 20px;
+    height: 25px;
     text-align: center;
-    width: 100%;
-    
+    width: 95%;    
 }
+
+
 
 #enviar{
     height: 40px;
@@ -50,5 +55,5 @@ input{
 }
 
 label{
-    width: 90%;
+    width: 100%;
 }
