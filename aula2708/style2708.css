@@ -1,0 +1,54 @@
+fieldset{    
+    width: 50%;
+    margin-left: 25%;
+    
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+   width: auto;
+}
+
+#texto{
+    height: 70px;    
+}
+
+
+
+#novi{
+    display: flex;
+    flex-direction: row;       
+    gap: 10px;
+    margin-top: 5px;
+}
+
+h1{
+    font-size: 30px;
+    
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 20px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+#enviar{
+    height: 40px;
+    width: 10%;
+    margin-left: 45%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+label{
+    width: 90%;
+}
